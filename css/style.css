@@ -17,6 +17,21 @@ html {
   z-index: -1;
   background-image: url("https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_3x2.jpg") bottom center;
 }
+
+h1 {
+  position: absolute;
+  z-index: 2;
+  color: white;
+  font-size: 50px;
+  background-color: black;
+  border-radius: 10%;
+  padding: 1rem;
+  justify-content: center;
+  left: 38%;
+  top: 80%
+}
+
+
 .player{
   position: absolute;
   top: -7rem;
