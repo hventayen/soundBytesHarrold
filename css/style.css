@@ -13,12 +13,15 @@ html {
 
 .bgimg{
   position: relative;
-  z-index: 100;
-  background-image: url("images/background.png") bottom center;
+  height: 25%;
+  z-index: -1;
+  background-image: url("https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_3x2.jpg") bottom center;
 }
 .player{
-  position: relative;
-  z-index: 10;
+  position: absolute;
+  top: -7rem;
+  left: 15%;
+  z-index: 1;
 }
 
 .keys {
