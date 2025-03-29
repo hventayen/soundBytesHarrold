@@ -7,7 +7,10 @@
   <link rel="icon" href="https://fav.farm/🔥" />
 </head>
 <body>
+<div class="bgimg">
+  
 
+<div class="player">
 <div class="slideshow-container">
   <div class="mySlides fade">
   <div class="keys">
@@ -53,50 +56,52 @@
       <div class="keys">
         <div data-key="81" class="key">
           <kbd>Q</kbd>
-          <span class="sound">clap</span>
+          <span class="sound">E</span>
         </div>
         <div data-key="87" class="key">
           <kbd>W</kbd>
-          <span class="sound">hihat</span>
+          <span class="sound">B</span>
         </div>
         <div data-key="69" class="key">
           <kbd>E</kbd>
-          <span class="sound">kick</span>
+          <span class="sound">G</span>
         </div>
         <div data-key="82" class="key">
           <kbd>R</kbd>
-          <span class="sound">openhat</span>
+          <span class="sound">D</span>
         </div>
         <div data-key="84" class="key">
           <kbd>T</kbd>
-          <span class="sound">boom</span>
+          <span class="sound">A</span>
         </div>
         <div data-key="89" class="key">
           <kbd>Y</kbd>
-          <span class="sound">ride</span>
+          <span class="sound">E</span>
         </div>
         <div data-key="85" class="key">
           <kbd>U</kbd>
-          <span class="sound">snare</span>
+          <span class="sound">C</span>
         </div>
         <div data-key="73" class="key">
           <kbd>I</kbd>
-          <span class="sound">tom</span>
+          <span class="sound">D</span>
         </div>
         <div data-key="79" class="key">
           <kbd>O</kbd>
-          <span class="sound">tink</span>
+          <span class="sound">Dm</span>
         </div>
     </div>
     </div>
   
- 
+    
   <a class="prev" onclick="plusSlides(-1)">❮</a>
 <a class="next" onclick="plusSlides(1)">❯</a>
 </div>
 <div style="text-align:center">
   <span class="dot" onclick="currentSlide(1)"></span> 
   <span class="dot" onclick="currentSlide(2)"></span> 
+</div>
+</div>
 </div>
 
   <audio data-key="65" src="sounds/clap.wav"></audio>
@@ -108,6 +113,16 @@
   <audio data-key="74" src="sounds/snare.wav"></audio>
   <audio data-key="75" src="sounds/tom.wav"></audio>
   <audio data-key="76" src="sounds/tink.wav"></audio>
+
+  <audio data-key="81" src="sounds/1st_String_E_64kb.wav"></audio>
+  <audio data-key="87" src="sounds/2nd_String_B__64kb.wav"></audio>
+  <audio data-key="69" src="sounds/3rd_String_G_64kb.wav"></audio>
+  <audio data-key="82" src="sounds/4th_String_D_64kb.wav"></audio>
+  <audio data-key="84" src="sounds/5th_String_A_64kb.wav"></audio>
+  <audio data-key="89" src="sounds/6th_String_E_64kb.wav"></audio>
+  <audio data-key="85" src="sounds/C_64kb.wav"></audio>
+  <audio data-key="73" src="sounds/D_64kb.wav"></audio>
+  <audio data-key="79" src="sounds/Dm_64kb.wav"></audio>
 
 <script>
   function playSound(e) {
